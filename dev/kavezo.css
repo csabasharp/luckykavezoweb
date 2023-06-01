@@ -1,0 +1,19 @@
+  .navbar {
+      background-color: darkgreen;
+  }
+
+
+  .navbar-brand img {
+      filter: invert(1);
+  }
+
+  .navbar-nav .nav-link .navbar-brand {
+      color: white;
+  }
+
+
+  .bannerkep {
+      background-image: url('../img/banner.jpg');
+      background-size: cover;
+      background-position: center;
+  }
