@@ -13,7 +13,31 @@
 
 
   .bannerkep {
-      background-image: url('../img/banner.jpg');
-      background-size: cover;
-      background-position: center;
-  }
+    background-image: url('../img/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding-top: 30%;
+}
+
+
+
+footer img {
+ color: white;
+  max-height: 24px;
+  max-width: 24px;
+}
+
+
+footer{
+    background-color: darkgreen;
+    color: white;
+}
+
+footer li{
+    list-style-type: none;
+}
+
+
+
+
