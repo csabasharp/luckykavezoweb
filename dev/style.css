@@ -2,7 +2,6 @@
       background-color: darkgreen;
   }
 
-
   .navbar-brand img {
       filter: invert(1);
   }
@@ -10,8 +9,6 @@
   .navbar-nav .nav-link .navbar-brand {
       color: white;
   }
-
-
 
   .fooldal {
       width: 100%;
@@ -25,9 +22,10 @@
 
   .fooldal h1 {
       text-align: left;
-      color: #AB8842;
+      color: #C9942A;
       font-family: 'Courier New', Courier, monospace;
-      font-weight: bolder;
+      font-weight: bold;
+      background-color: rgba(8, 6, 6, 0.5);
   }
 
   .bannerkep {
@@ -38,14 +36,11 @@
       padding-top: 30%;
   }
 
-
-
   footer img {
       color: white;
       max-height: 25px;
       max-width: 25px;
   }
-
 
   footer {
       background-color: darkgreen;
@@ -54,13 +49,6 @@
 
   footer li {
       list-style-type: none;
-  }
-
-  .napraforgocontainer {
-
-      margin-top: -250px;
-      margin-left: 310px;
-
   }
 
   .napraforgocontainer img {
@@ -76,7 +64,7 @@
   }
 
   .tartalmak h1 {
-      color: #AB8842;
+      color: #896C34;
       font-weight: bold;
   }
 
@@ -87,10 +75,44 @@
       font-variant: small-caps;
   }
 
-.paddinghely{
-    padding: 10px;
-}
+  .tartalmak img {
+      width: 100%;
+  }
+
+  .paddinghely {
+      padding: 10px;
+  }
 
   .keret {
       border: 2px double black;
+      border-radius: 4px;
+  }
+
+  #kaveblog {
+      background-color: #FFBC81;
+      font-family: 'Courier New', Courier, monospace;
+      text-align: center;
+      padding: 1%;
+      color: #7F502D;
+  }
+
+  #kaveblog h1 {
+      font-weight: bold;
+      color: #684B11;
+  }
+
+  #kaveblog p {
+      font-weight: bold;
+      color: #FFBC81;
+      background-color: saddlebrown;
+      margin-bottom: 0;
+  }
+
+  #kaveblog img {
+      width: 100%;
+      max-height: 300px;
+  }
+
+  .kaveblog-keret {
+      border: 3px ridge saddlebrown;
   }
