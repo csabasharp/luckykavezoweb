@@ -14,16 +14,20 @@
 
 
   .fooldal {
-    width: 100%;
+      width: 100%;
   }
-  
+
   .fooldal td {
-    background-image: url('../img/homebg.jpg');
-    background-size: cover;
-    text-align: left;
-    color: #AB8842;
-    font-family: 'Courier New', Courier, monospace;
-    padding-bottom: 40%;
+      background-image: url('../img/homebg.jpg');
+      background-size: cover;
+      padding-bottom: 40%;
+  }
+
+  .fooldal h1 {
+      text-align: left;
+      color: #AB8842;
+      font-family: 'Courier New', Courier, monospace;
+      font-weight: bolder;
   }
 
   .bannerkep {
@@ -53,5 +57,21 @@
   }
 
 
+  .kavefajtakwireframe {
+      background-color: #E2E099;
+      font-family: 'Courier New', Courier, monospace;
 
 
+  }
+
+  .kavefajtakwireframe h1 {
+      text-align: center;
+      color: #AB8842;
+      font-weight: bold;
+
+
+  }
+
+  .kavefajtakwireframe p {
+      color: black;
+  }
