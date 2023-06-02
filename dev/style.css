@@ -12,32 +12,47 @@
   }
 
 
-  .bannerkep {
-    background-image: url('../img/banner.jpg');
-    background-size: cover;
-    background-position: center;
+
+  .fooldal {
     width: 100%;
-    padding-top: 30%;
-}
+  }
+  
+  .fooldal td {
+    background-image: url('../img/homebg.jpg');
+    background-size: cover;
+    text-align: left;
+    color: #AB8842;
+    font-family: serif;
+    padding-bottom: 40%;
+  }
+
+  .bannerkep {
+      background-image: url('../img/banner.jpg');
+      background-size: cover;
+      background-position: center;
+      width: 100%;
+      padding-top: 30%;
+  }
 
 
 
-footer img {
- color: white;
-  max-height: 24px;
-  max-width: 24px;
-}
+  footer img {
+      color: white;
+      max-height: 24px;
+      max-width: 24px;
+  }
 
 
-footer{
-    background-color: darkgreen;
-    color: white;
-}
+  footer {
+      background-color: darkgreen;
+      color: white;
+  }
 
-footer li{
-    list-style-type: none;
-}
-
-
+  footer li {
+      list-style-type: none;
+  }
 
 
+
+
+  
