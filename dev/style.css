@@ -20,7 +20,7 @@
   .fooldal td {
       background-image: url('../img/homebg.jpg');
       background-size: cover;
-      padding-bottom: 40%;
+      padding-bottom: 57%;
   }
 
   .fooldal h1 {
@@ -42,8 +42,8 @@
 
   footer img {
       color: white;
-      max-height: 24px;
-      max-width: 24px;
+      max-height: 25px;
+      max-width: 25px;
   }
 
 
@@ -56,22 +56,41 @@
       list-style-type: none;
   }
 
+  .napraforgocontainer {
 
-  .kavefajtakwireframe {
+      margin-top: -250px;
+      margin-left: 310px;
+
+  }
+
+  .napraforgocontainer img {
+      max-height: 25px;
+      max-width: 25px;
+  }
+
+  .tartalmak {
       background-color: #E2E099;
       font-family: 'Courier New', Courier, monospace;
-
-
+      text-align: center;
+      padding: 10px;
   }
 
-  .kavefajtakwireframe h1 {
-      text-align: center;
+  .tartalmak h1 {
       color: #AB8842;
       font-weight: bold;
-
-
   }
 
-  .kavefajtakwireframe p {
+  .tartalmak p {
       color: black;
+      background-color: white;
+      margin-bottom: 0;
+      font-variant: small-caps;
+  }
+
+.paddinghely{
+    padding: 10px;
+}
+
+  .keret {
+      border: 2px double black;
   }
